@@ -1,0 +1,63 @@
+{
+  "format": "isopack-2-unibuild",
+  "declaredExports": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "accounts-base",
+      "constraint": "2.2.3"
+    },
+    {
+      "package": "accounts-oauth",
+      "constraint": "1.1.7"
+    },
+    {
+      "package": "facebook-oauth",
+      "constraint": "1.3.1"
+    },
+    {
+      "package": "service-configuration",
+      "constraint": "1.0.5"
+    },
+    {
+      "package": "http",
+      "constraint": "1.1.1"
+    },
+    {
+      "package": "underscore",
+      "constraint": "1.0.4"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base",
+      "constraint": "2.2.3"
+    }
+  ],
+  "resources": [
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "os/facebook_server.js",
+      "length": 1702,
+      "offset": 0,
+      "usesDefaultSourceProcessor": true,
+      "path": "facebook_server.js",
+      "hash": "a32267097ff9ee33dddd919dc5cbb6426dd42098",
+      "fileOptions": {}
+    },
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "os/facebook.js",
+      "length": 2441,
+      "offset": 0,
+      "usesDefaultSourceProcessor": true,
+      "path": "facebook.js",
+      "hash": "92120f3806d7d5d1001103536f50d220c9790129",
+      "fileOptions": {}
+    }
+  ]
+}
